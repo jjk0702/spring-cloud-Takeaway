@@ -1,0 +1,28 @@
+#server:
+#  port: 38080
+#spring:
+#  datasource:
+#    username: root
+#    password: 123456
+#    dirver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/shoping?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+#  application:
+#    name: service-sercurity
+#  cloud:
+#    nacos:
+#      discovery:
+#        # 服务注册中心
+#        server-addr: 127.0.0.1:8848
+#  jpa:
+#      generate-ddl: false
+#      hibernate:
+#        ddl-auto: update
+#      database: mysql
+#      show-sql: true
+server:
+  port: 38080
+spring:
+  application:
+    name: service-sercurity
+  active:
+     dev
